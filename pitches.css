@@ -1,0 +1,20 @@
+.pitch-box img{
+    width: 25px;
+    rotate: 15deg;
+    margin-right: 5px;
+}
+.active-link-pitch{
+    color: white;
+    background-color: black;
+}
+.video{
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+}
+iframe {
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom:10px
+}

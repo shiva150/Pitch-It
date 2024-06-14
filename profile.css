@@ -1,0 +1,144 @@
+.main-content-profile {
+  flex-basis: 60%;
+  cursor: pointer;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+.profile-upper{
+position: relative;
+display: flex;
+padding-bottom: 40px;
+}
+.profile-banner{
+    width: 100%;
+    object-fit:fill;
+    height: 25vh;
+    border-radius: 5px;
+  }
+  .profile-logo{
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.profile-info{
+    padding:5px 20px;
+}
+.profile-info div {
+display: flex;
+}
+.profile-info div button{
+  margin-left: 75%;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 2px solid #2e8cd1;
+  background: white;
+  cursor: pointer;
+}
+.profile-info div button img{
+    width: 15px;
+}
+.profile-info div button:hover{
+    scale:1.05;
+    transition:  0.1s;
+    background: #2e8cd1;
+    color:white
+}
+.profile-info div h2,h4{
+   color:black;
+   margin-bottom: 2px;
+   display: block;
+}
+.profile-info-type{
+font-size: 12px;
+padding-bottom: 10px;
+}
+.follow-stats{
+margin: 10px 0px;
+color: black;
+}
+.follow-stats p{
+   padding: 5px 7px;
+   border: 2px solid #ccc;
+   border-radius: 20px;
+   background:#cccccc29;
+   font-size: 13px;
+}
+.follow-stats p:hover{
+    background-color: white;
+    border: 2px solid black
+}
+.follow-stats p:last-child{
+    margin-left: 5px;
+}
+.follow-stats p small{
+   color:grey;
+}
+.profile-details{
+display: flex;
+border:2px solid #234279;
+border-radius:10px ;
+width: 100%;
+justify-content: space-around;
+padding: 5px;
+}
+.profile-details-left{
+width: 49%;
+border-right: 2px solid #ccc;
+padding: 5px 15px 5px 15px;
+}
+.profile-details-right{
+    width: 49%;
+    padding: 5px 15px 5px 15px;
+    }
+.profile-details-left hr,.profile-details-right hr{
+    width: 98%;
+   padding: 1px 0;
+    margin: auto;
+}
+.profile-details-left .team-member{
+display: flex;
+align-items: center;
+padding: 10px;
+border-bottom: 1px solid #cccccc7a;
+}
+.profile-details-left .team-member:hover{
+    background-color: #cccccc2b;
+}
+.profile-details-left .team-member img{
+border-radius: 50%;
+width: 55px;
+height: 55px;
+object-fit: cover;
+margin-right: 10px;
+}
+.team-member div p{
+    font-size: 13px;
+}
+#team-member-ceo{
+    border: 3px solid #2e8cd1;  
+}
+#team-member-cfo{
+    border: 3px solid #2ed182;  
+}
+#team-member-coo{
+    border: 3px solid #7d2ed1;  
+}
+#team-member-cto{
+    border: 3px solid #111111;  
+}
+.profile-details-right p{
+    font-size: 14px;
+    margin: 15px 0px;
+}
+.profile-details-right p span{
+    color: #000000b3;
+    font-weight: 600;
+}
+.profile-details-right p a:hover{
+color:#2e8cd1;
+}

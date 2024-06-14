@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(300deg, #2147bb93, #efeaeb, #2e8dd1a9);
+    background-size: 180% 180%;
+    margin: 0;
+    padding: 0;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .headbar{
+    background-color: rgba(255, 255, 255, 0.409);
+    border-radius: 10px;
+  }
+.img-fluid{
+max-height: 400px;
+max-width: 400px;
+border: 5px solid rgba(15, 105, 215, 0.927);
+border-radius: 50%; 
+padding: 10px;
+
+}
+#Pitch{
+
+color: rgba(3, 63, 194, 0.806);
+padding: 0px;
+margin:0px;
+font-weight: bold;
+font-size: 4rem;
+}
+#it{
+color:black;
+padding: 0px;
+margin:0px;
+font-weight: bold;
+font-size: 4rem;
+}
+.pitchit{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 5rem;
+width:17rem ;
+background-color: white;
+border-radius: 3rem;
+padding: 2px;
+margin-bottom: 1rem;
+border: 2px solid rgba(8, 70, 178, 0.991);
+}
+.headPitchIt{
+border-radius: 30px;
+
+}
+.lead{
+font-weight: 350;
+}
+#It{
+color: black;
+padding: 0px;
+margin:0px;
+font-weight: bold;
+font-size: 4rem;
+}
+.cards{
+height: 60vh;
+width: 100%;
+/* background-color: aquamarine; */
+border: 4px solid rgba(128, 128, 128, 0.283);
+border-radius: 1rem;
+background: linear-gradient(300deg, #2147bb06, #efeaeb, #2e8dd145);
+background-size: 180% 180%;
+animation: gradient-animation 18s ease infinite;
+}

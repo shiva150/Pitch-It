@@ -1,0 +1,15 @@
+.active-link-pitch{
+    color: white;
+    background-color: black;
+}
+.video{
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+.shorts {
+    margin: auto;
+    display: flex;
+    margin-bottom:10px
+}
